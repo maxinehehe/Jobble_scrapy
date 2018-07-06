@@ -33,7 +33,9 @@ maxinehehe@maxinehehe-PC:~$ workon article_spider
 maxinehehe@maxinehehe-PC:~$ scrapy startproject ArticleSpider
 
 5.创建新的爬虫 
+
 maxinehehe@maxinehehe-PC:~$ scrapy genspider jobbole http://blog.jobbole.com/all-posts/
+
 根据模板生成一个新的爬虫
 
 详情 参见 word 文件 ：【伯乐在线爬虫个人全面学习和理解【不断完善】.docx】
@@ -51,9 +53,14 @@ maxinehehe@maxinehehe-PC:~$  pip install -i https://pypi.douban.com.simple/ virt
 maxinehehe@maxinehehe-PC:~$  gedit ~/.bashrc
 
 添加：
-export WORKON_HOME=$HOME/.virtualenvs  # .virtualenvs是虚拟环境文件夹 可自己创建
-source /media/maxinehehe/5C584003583FDB0A/python35/Scripts/virtualenvwrapper.sh     # 可通过 find / -name virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs  
+# .virtualenvs是虚拟环境文件夹 可自己创建
+
+source /media/maxinehehe/5C584003583FDB0A/python35/Scripts/virtualenvwrapper.sh
+# 可通过 find / -name virtualenvwrapper.sh
+
 maxinehehe@maxinehehe-PC:~$  source ~/.bashrc
+
 使配置立即生效
 
 3.创建虚拟环境【python3】
@@ -74,6 +81,7 @@ maxinehehe@maxinehehe-PC:~$ scrapy startproject ArticleSpider
 
 5.创建新的爬虫 
 maxinehehe@maxinehehe-PC:~$ scrapy genspider jobbole http://blog.jobbole.com/all-posts/
+
 根据模板生成一个新的爬虫
 
 详情 参见 word 文件 ：【伯乐在线爬虫个人全面学习和理解【不断完善】.docx】
